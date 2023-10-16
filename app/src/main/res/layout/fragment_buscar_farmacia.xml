@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/searchItemsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="24dp"
+        android:paddingTop="8dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/txtAutoCompleteUbicacionActual"
+            style="@style/ProductAutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/btnBuscarFarmaciaUbicacion"
+            android:background="@drawable/bg_productos_autocomplete_ubicacion_actual"
+            android:drawableRight="@drawable/ic_search_black_24dp"
+            android:hint="@string/search_product_ingresar_direccion"
+            android:inputType="text"
+            android:maxLines="1"
+            android:minHeight="25dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" />
+
+
+        <CheckBox
+            android:id="@+id/btnBuscarFarmaciaUbicacion"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/bg_btn_ubicacion"
+            android:button="@null" />
+
+    </RelativeLayout>
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.orugga.yapp.fragments.BuscarFarmaciaFragment">
+
+    </com.google.android.gms.maps.MapView>
+
+
+</LinearLayout>

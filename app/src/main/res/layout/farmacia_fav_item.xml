@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imgPharmacyPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/placeholder_producto"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtPharmacyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/imgPharmacyPhoto"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/imgPharmacyPhoto"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Farmacia Ahumada"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txtPharmacyAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/txtPharmacyName"
+        android:layout_toLeftOf="@id/btnDelete"
+        android:layout_below="@id/txtPharmacyName"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:maxLines="2"
+        android:text="Avenida Providencia 2076, Providencia, RM"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/btnDelete"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@id/txtPharmacyAddress"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/ic_eliminar"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

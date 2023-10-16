@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background"
+    android:clickable="true"
+    tools:context="com.orugga.yapp.fragments.login.WelcomeFragment"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <TextView
+        android:id="@+id/txtAccountSuccessfullyCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tu_cuenta_ha_sido_creada"
+        android:textAlignment="center"
+        android:textColor="@color/defaultTextColor"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAccountSuccessfullyCreated"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="30dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/tilde_ok"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/btnCompletarMiPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_btn_blue_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:text="@string/btn_completar_mi_perfil"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

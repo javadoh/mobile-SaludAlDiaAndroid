@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="18dp"
+    tools:context="com.orugga.yapp.fragments.colabora.ColaboraReportarOtroFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/correo_electronico"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtAsunto"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/asunto"
+            android:inputType="textEmailSubject" />
+
+        <EditText
+            android:id="@+id/txtComentario"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/comentarios"
+            android:inputType="textCapSentences" />
+
+        <TextView
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="18dp"
+            android:background="@drawable/bg_btn_blue_rounded"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="@string/btn_ok"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+    </LinearLayout>
+</FrameLayout>

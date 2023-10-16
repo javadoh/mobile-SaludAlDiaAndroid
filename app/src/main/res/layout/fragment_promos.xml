@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:clickable="true"
+    tools:context="com.orugga.yapp.fragments.PromosFragment"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <TextView
+        android:id="@+id/txtCategoryDescription"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/default_background"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="@string/ahorra_en_cuidado_de_la_piel"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <com.orugga.yapp.views.BannerViewPager
+            android:id="@+id/promosViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical|start"
+            android:layout_marginLeft="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/flecha_izquierda"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/flecha_derecha"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+
+    <ListView
+        android:id="@+id/promoCategoryButtonsListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        tools:listitem="@layout/promos_category_button_item"/>
+
+    <!--
+
+    <com.orugga.yapp.views.HtmlTextView
+        android:id="@+id/btnCuidadoDeLaPiel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btnPerfumesYFragancias"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bg_btn_promos_cuidado_piel"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/btn_promos_ahorro_cuidado_de_la_piel"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <com.orugga.yapp.views.HtmlTextView
+        android:id="@+id/btnPerfumesYFragancias"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btnHigienePersonal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bg_btn_promos_perfumes_fragancias"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/btn_promos_ahorro_perfumes_y_fragancias"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <com.orugga.yapp.views.HtmlTextView
+        android:id="@+id/btnHigienePersonal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btnTiempoLimitado"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bg_btn_promos_higiene_personal"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/btn_promos_ahorro_higiene_personal"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <com.orugga.yapp.views.HtmlTextView
+        android:id="@+id/btnTiempoLimitado"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bg_btn_promos_tiempo_limitado"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/btn_promos_ahorro_por_tiempo_limitado"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+-->
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.orugga.yapp.views.HtmlTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btnPromotionCategory"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/bg_btn_promos_cuidado_piel"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:lines="1"
+    android:maxLines="1"
+    android:text="@string/btn_promos_ahorro_cuidado_de_la_piel"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textSize="18sp" />

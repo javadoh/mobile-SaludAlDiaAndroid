@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_inicio"
+            android:icon="@drawable/ic_menu_inicio"
+            android:title="@string/nav_title_menu_inicio" />
+        <item
+            android:id="@+id/nav_alerta_de_toma"
+            android:icon="@drawable/ic_alerta_toma"
+            android:title="@string/nav_title_alerta_toma"
+            app:actionLayout="@layout/menu_counter" />
+        <item
+            android:id="@+id/nav_visitar_medico"
+            android:icon="@drawable/ic_recordatorio_visita"
+            android:title="@string/nav_title_recordar_visitar_al_medico" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_favoritos"
+            android:title="@string/nav_title_fav" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/ic_account_circle_black_36dp"
+            android:title="@string/nav_title_my_account" />
+        <item
+            android:id="@+id/nav_pp"
+            android:icon="@drawable/ic_programa_paciente"
+            android:title="@string/nav_title_programa_paciente" />
+        <item
+            android:id="@+id/nav_bioequivalencias"
+            android:icon="@drawable/ic_bioequvalencias"
+            android:title="@string/nav_title_bioequivalencias" />
+        <!--<item
+            android:id="@+id/nav_colabora"
+            android:icon="@drawable/ic_colabora"
+            android:title="@string/colabora" />-->
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_acerca_de"
+            android:title="@string/nav_title_about_us" />
+
+    </group>
+</menu>

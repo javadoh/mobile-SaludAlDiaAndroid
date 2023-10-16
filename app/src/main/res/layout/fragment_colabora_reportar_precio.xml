@@ -1,0 +1,129 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="18dp"
+    tools:context="com.orugga.yapp.fragments.colabora.ColaboraReportarPrecioFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/txtNombre"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/nombre_producto" />
+
+        <AutoCompleteTextView
+            android:id="@+id/txtLaboratorio"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/laboratorio"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/txtGramaje"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/gramaje_o_ml"
+            android:inputType="number"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/txtCantidad"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/cantidad"
+            android:inputType="numberDecimal"
+            android:visibility="gone" />
+
+        <AutoCompleteTextView
+            android:id="@+id/txtCadenaFarmacia"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/cadena_farmacia"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/txtPrecioPagado"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/precio_pagado"
+            android:inputType="number"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/txtPrecioDescuento"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/descuento"
+            android:inputType="number"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/spinnerConvenio"
+            android:background="@drawable/bg_register_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/spinnerIsapre"
+            android:background="@drawable/bg_register_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/productPhotoSelector"
+            layout="@layout/photo_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/photoSelector"
+            layout="@layout/photo_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="18dp"
+            android:background="@drawable/bg_btn_blue_rounded"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="@string/btn_ok"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

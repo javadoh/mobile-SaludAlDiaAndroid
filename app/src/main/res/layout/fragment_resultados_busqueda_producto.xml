@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context="com.orugga.yapp.fragments.ResultadosBusquedaProductoFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/precios_referenciales"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--
+
+            <TextView
+                android:id="@+id/txtSeHanEncontrado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/txt_se_han_encontrado" />
+
+            <TextView
+                android:id="@+id/txtCantidaResultados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtSeHanEncontrado"
+                android:layout_alignStart="@+id/txtSeHanEncontrado"
+                android:layout_below="@+id/txtSeHanEncontrado"
+                android:text="3 resultados"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+            -->
+
+            <CheckBox
+                android:id="@+id/checkboxSoloFarmaciasAbiertas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="14dp"
+                android:text="@string/solo_farmacias_abiertas" />
+
+
+            <TextView
+                android:id="@+id/btnVerTodosEnMapa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="32dp"
+                android:clickable="true"
+                android:drawableLeft="@drawable/boton_ver_todos_en_mapa"
+                android:drawablePadding="4dp"
+                android:focusable="true"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:text="@string/resultados_busqueda_producto_ver_todos_en_mapa"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/resultProductTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@drawable/bg_productos_tab_item"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/defaultTextColor"
+            app:tabTextAppearance="@style/ProductTabText" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/resultProductViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="424dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/precios_referenciales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="@string/precios_referenciales"
+        android:textColor="@color/defaultTextColor" />
+
+
+</RelativeLayout>

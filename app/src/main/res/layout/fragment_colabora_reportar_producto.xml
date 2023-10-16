@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="18dp"
+    tools:context="com.orugga.yapp.fragments.colabora.ColaboraReportarProductoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <AutoCompleteTextView
+            android:id="@+id/txtNombre"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/nombre_producto" />
+
+        <AutoCompleteTextView
+            android:id="@+id/txtLaboratorio"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/laboratorio"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/txtGramaje"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/gramaje_o_ml"
+            android:inputType="number"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/txtCantidad"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/cantidad"
+            android:inputType="numberDecimal"
+            android:visibility="gone" />
+
+        <AutoCompleteTextView
+            android:id="@+id/txtCadenaFarmacia"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/cadena_farmacia"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/txtPrecio"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/precio"
+            android:inputType="numberDecimal"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/txtCorreccion"
+            style="@style/EditTextColabora"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="@string/correccion"
+            android:inputType="textCapSentences"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/productPhotoSelector"
+            layout="@layout/photo_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/pharmacySelector"
+            layout="@layout/pharmacy_selector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+        <CheckBox
+            android:id="@+id/stockView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:hint="@string/sin_stock"
+            android:textColorHint="@color/colorBlack"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="18dp"
+            android:background="@drawable/bg_btn_blue_rounded"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="@string/btn_ok"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView>

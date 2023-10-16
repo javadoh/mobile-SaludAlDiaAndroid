@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background"
+    android:clickable="true"
+    android:orientation="vertical"
+    tools:context="com.orugga.yapp.fragments.favoritos.MisFavoritosFragment"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:text="@string/has_guardado_lo_siguiente"
+        android:textAlignment="center" />
+
+    <RelativeLayout
+        android:id="@+id/fav_item_mis_farmacias"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@color/colorWhite"
+        android:paddingBottom="8dp">
+
+        <View
+            android:id="@+id/barraNaranja"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="8dp"
+            android:background="@color/naranjaAccent" />
+
+        <ImageView
+            android:id="@+id/imgMisFarmacias"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/barraNaranja"
+            android:layout_marginLeft="8dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_farmacias"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/barraNaranja"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/imgMisFarmacias"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="@string/mis_farmacias"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cantFarmaciasFavoritas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(2 guardados)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnShowPharmacies"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bg_btn_blue_rounded"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:text="@string/btn_ver"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/fav_item_mis_medicamentos"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorWhite"
+        android:paddingBottom="8dp">
+
+        <View
+            android:id="@+id/barraNaranja2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="8dp"
+            android:background="@color/naranjaAccent" />
+
+        <ImageView
+            android:id="@+id/imgMisMedicamentos"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/barraNaranja2"
+            android:layout_marginLeft="8dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_mis_medicamentos"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/barraNaranja2"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/imgMisMedicamentos"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="@string/mis_medicamentos"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cantMedicamentosFavoritos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(2 guardados)"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnShowProducts"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bg_btn_blue_rounded"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:text="@string/btn_ver"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</LinearLayout>

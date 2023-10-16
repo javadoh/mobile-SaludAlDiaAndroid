@@ -1,0 +1,217 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.orugga.yapp.fragments.BuscarProductosFragment">
+
+
+    <ScrollView
+        android:id="@+id/scrollArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnBuscarProductoYAPP"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingBottom="8dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="24dp"
+                android:paddingTop="8dp">
+
+                <AutoCompleteTextView
+                    android:id="@+id/txtAutoCompleteUbicacionActual"
+                    style="@style/ProductAutoCompleteTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@id/btnBuscarProductoUbicacion"
+                    android:background="@drawable/bg_productos_autocomplete_ubicacion_actual"
+                    android:drawableRight="@drawable/ic_search_black_24dp"
+                    android:hint="@string/search_product_ingresar_direccion"
+                    android:inputType="textAutoComplete"
+                    android:maxLines="1"
+                    android:minHeight="25dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+
+                <CheckBox
+                    android:id="@+id/btnBuscarProductoUbicacion"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/bg_btn_ubicacion"
+                    android:button="@null" />
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.gms.maps.MapView
+                    android:id="@+id/mapView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/transparent_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@android:color/transparent"
+                    tools:ignore="ContentDescription" />
+            </FrameLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:background="#f5f5f5"
+                android:gravity="center_vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/txtAutoCompleteSearchProducts"
+                    style="@style/ProductAutoCompleteTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="52dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/bg_productos_autocomplete_buscar_productos"
+                    android:drawableRight="@drawable/ic_search_black_24dp"
+                    android:hint="@string/auto_complete_title_buscar_producto"
+                    android:imeOptions="actionDone"
+                    android:inputType="textAutoComplete"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                </AutoCompleteTextView>
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/naranjaAccent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="31dp"
+                    android:layout_height="29dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/ic_documentos"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="304dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/search_products_productos_seleccionados"
+                    android:textAlignment="inherit"
+                    android:textColor="@color/naranjaAccent"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/productListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/btnBuscarProductoYAPP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_btn_buscar_producto_yapp"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_search_white_24dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YAPP!"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/precios_referenciales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btnBuscarProductoYAPP"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toLeftOf="@id/btnBuscarProductoYAPP"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="@string/precios_referenciales"
+        android:textColor="@color/defaultTextColor" />
+
+</RelativeLayout>

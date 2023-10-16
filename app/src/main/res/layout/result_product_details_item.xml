@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/imgProduct"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/content_description_product_photo"
+        android:scaleType="centerInside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/placeholder_producto" />
+
+    <TextView
+        android:id="@+id/txtProductName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginStart="8dp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:maxLines="2"
+        android:text="Diclofenaco Sódico 50mg"
+        android:textAllCaps="true"
+        android:textColor="#555555"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/btnAddToFavourites"
+        app:layout_constraintLeft_toRightOf="@id/imgProduct"
+        app:layout_constraintStart_toEndOf="@+id/imgProduct"
+        app:layout_constraintTop_toTopOf="@+id/imgProduct"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/txtActivePrinciple"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="1"
+        android:maxLines="2"
+        android:text="Principios Activos: Ibuprofeno"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtProductName"
+        app:layout_constraintStart_toStartOf="@+id/txtProductName"
+        app:layout_constraintTop_toBottomOf="@+id/txtProductName"
+        tools:ignore="HardcodedText,SmallSp" />
+
+    <TextView
+        android:id="@+id/txtProductLab"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="LABORATORIO CHILE"
+        android:textColor="#888888"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/txtProductName"
+        app:layout_constraintRight_toRightOf="@+id/txtProductName"
+        app:layout_constraintTop_toBottomOf="@+id/txtActivePrinciple"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/lblPrecioRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/pharmacy_list_item_precio_regular"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/txtProductLab"
+        app:layout_constraintTop_toBottomOf="@+id/txtProductLab"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/txtPrecioRegular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="$19.000.-"
+        android:textSize="10sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lblPrecioRegular"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/lblPrecioRegular"
+        tools:ignore="HardcodedText,SmallSp" />
+
+    <ImageView
+        android:id="@+id/imgTachar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtPrecioRegular"
+        app:layout_constraintEnd_toEndOf="@+id/txtPrecioRegular"
+        app:layout_constraintStart_toStartOf="@+id/txtPrecioRegular"
+        app:layout_constraintTop_toTopOf="@+id/txtPrecioRegular"
+        app:srcCompat="@drawable/tachar"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtDtoSources"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="ocupando convenio caja los andes"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lblPrecioRegular"
+        app:layout_constraintTop_toBottomOf="@+id/lblPrecioConDescuento"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lblPrecioConDescuento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/pharmacy_list_item_precio_con_descuento"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/lblPrecioRegular"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lblPrecioRegular"
+        app:layout_constraintTop_toBottomOf="@+id/lblPrecioRegular"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/txtPrecioConDescuento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="$18.573.-"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/lblPrecioConDescuento"
+        app:layout_constraintStart_toEndOf="@+id/lblPrecioConDescuento"
+        app:layout_constraintTop_toTopOf="@+id/lblPrecioConDescuento"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:id="@+id/btnVerBeneficioEnProgramaPaciente"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="@+id/imgProduct"
+        app:layout_constraintTop_toBottomOf="@+id/txtDtoSources"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/txtPhotoDesc"
+            app:layout_constraintLeft_toLeftOf="@+id/imgProduct"
+            app:layout_constraintTop_toBottomOf="@+id/imgProduct"
+            app:srcCompat="@drawable/ic_programa_paciente"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/btn_programa_paciente"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btnDeleteRow"
+            app:layout_constraintLeft_toRightOf="@+id/btnDeleteRow"
+            app:layout_constraintTop_toTopOf="@+id/btnDeleteRow" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/btnAddToFavourites"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_btn_add_to_favourites"
+        android:button="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context="com.orugga.yapp.fragments.PacientProgramDetailsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pacientProgramBanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/content_description_pacient_program"
+            android:src="@drawable/place_holder_pp"
+
+            />
+
+        <ImageView
+            android:id="@+id/labImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/pacientProgramBanner"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:background="@color/default_background"
+            android:contentDescription="@string/content_description_lab"
+            android:padding="2dp"
+            android:src="@drawable/placeholder_lab" />
+
+        <!--<TextView
+            android:id="@+id/btnQuieroSubscribirme"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/pacientProgramBanner"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:text="@string/quiero_subscribirme_a_este_programa"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="14sp" />-->
+
+        <LinearLayout
+            android:id="@+id/linearLayoutVerMas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pacientProgramBanner"
+            android:orientation="vertical">
+
+            <com.orugga.yapp.views.HtmlTextView
+                android:id="@+id/shortPacientProgramDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ellipsize="end"
+                android:lines="7"
+                android:maxLines="7"
+                android:textIsSelectable="true" />
+
+
+            <LinearLayout
+                android:id="@+id/btnVerMas"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/ver_mas"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_keyboard_arrow_down_white_36dp"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutVerMenos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pacientProgramBanner"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.orugga.yapp.views.HtmlTextView
+                android:id="@+id/longPacientProgramDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ellipsize="end"
+                android:textIsSelectable="true" />
+
+            <LinearLayout
+                android:id="@+id/btnVerMenos"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/ver_menos"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_keyboard_arrow_up_white_36dp"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

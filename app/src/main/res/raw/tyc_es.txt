@@ -1,0 +1,337 @@
+1.- SOBRE YAPP
+
+Bienvenido a Servicios de Información YAPP SpA (“YAPP”).
+YAPP es una Plataforma informativa y colaborativa cuyo objetivo es brindar información y ayuda a
+los Usuarios para encontrar los mejores precios de los Productos que desea adquirir.
+Nuestra aplicación móvil cuenta con un servicio gratuito de comparación de precios y
+características de distintos Productos, en su mayoría farmacéuticos, de manera tal que le permita
+optar por aquel más afín a sus necesidades.
+La relación de precios entre los distintos Productos sobre los cuales el Usuario consulte su valor,
+será proporcionada en base a la información suministrada por el mismo Usuario a la Plataforma.
+En nuestro afán de proporcionar al Usuario los mejores beneficios y descuentos sobre los
+Productos de su interés, el Usuario podrá navegar libremente por la Plataforma o a través de una
+Cuenta del Usuario donde se podrá registrar para obtener un Servicio más individualizado y
+eficiente. YAPP no almacenará información personal del Usuario.
+YAPP en ningún caso entregará información a Isapres, Empresas Farmacéuticas, Laboratorios ni
+terceros.
+
+2.- ASPECTOS GENERALES Y ACEPTACIÓN
+
+Estos Términos y Condiciones regulan el acceso y uso que todo Usuario haga de nuestra
+Plataforma y de cualquier Servicio que sea de propiedad o esté controlado por YAPP.
+Por medio de la aprobación de los presentes Términos de Uso y la Política de Privacidad, se
+entiende que el Usuario los ha leído y aceptado íntegramente por lo que le serán vinculantes. El
+uso real y efectivo del Servicio por parte del Usuario, hará presumir a YAPP que éstos han sido
+aceptados íntegramente y en el caso que el Usuario no los acepte se deberá abstener de acceder a
+la Plataforma, sus Servicios y cualquier información provista por la misma.
+
+3.- DEFINICIONES
+
+Los términos cuya primera letra figura en mayúscula (salvo cuando se deba exclusivamente a que
+inician una oración o se trate de un nombre propio), tienen el significado que se les asigna a
+continuación en estos Términos de Uso o en la Política de Privacidad:
+Plataforma significa la aplicación móvil, propiedad de YAPP, mediante la cual los Usuarios pueden
+acceder a los Servicios.
+Términos y Condiciones, Términos de Uso o Acuerdo significa los presentes Términos y
+Condiciones de YAPP.
+
+Política de Privacidad significa las políticas de privacidad de YAPP, las cuales se encuentran
+debidamente publicadas en la Plataforma. Estas políticas de privacidad rigen el uso que el Usuario
+hace de la Plataforma explicando qué información se recopila, cómo se utiliza dicha información,
+en qué circunstancias es compartida dicha información, y los derechos que tiene el Usuario sobre
+esa información.
+Contenido significa todo tipo de información, ya sea gráfica o escrita, imágenes, audio y video,
+incluyendo pero no limitándose a la ubicación, anuncios, comentarios, noticias, datos, guiones,
+gráficos, dibujos o imágenes, textos, diseño, esquemas, mapas y características interactivas
+presentadas por YAPP en la Plataforma (y cualquier software y códigos informáticos subyacentes),
+así como también programas o algoritmos computacionales, módulos de programación, manuales
+de operación, sea que dicho Contenido es generado, provisto o de cualquier otra forma producido
+o suministrado por YAPP, los Usuarios o terceros.
+Servicios significa todos aquellos servicios provistos por YAPP a los cuales el Usuario puede
+acceder por medio de la Plataforma y sus Equipos, en especial su servicio gratuito de comparación
+de precios de los distintos Productos, en su mayoría farmacéuticos.
+Equipo significa los teléfonos móviles y smartphones, tablets, computadores y cualquier otro
+aparato electrónico por el cual se pueda acceder a la Plataforma.
+Producto(s) Se entiende por ellos los artículos de higiene personal, perfumería, cosméticos y
+artículos farmacéuticos de acuerdo a lo contenido en el artículo 95 del Código Sanitario Chileno.
+“Se entenderá por producto farmacéutico o medicamento cualquier substancia natural,
+biológica, sintética o las mezclas de ellas, originada mediante síntesis o procesos químicos,
+biológicos o biotecnológicos, que se destine a las personas con fines de prevención,
+diagnóstico, atenuación, tratamiento o curación de las enfermedades o sus síntomas o de
+regulación de sus sistemas o estados fisiológicos particulares, incluyéndose en este
+concepto los elementos que acompañan su presentación y que se destinan a su
+administración.”
+Usuario(s) significa toda persona natural, o representante de la misma, que utilice la Plataforma.
+Cuenta del Usuario significa aquella cuenta creada por cada Usuario al registrarse en la
+Plataforma.
+
+4.- USUARIO Y CUENTA
+
+El Servicio proporciona a los Usuarios un comparador gratuito de precios y características de
+diversos Productos, en su mayoría farmacéuticos, de modo tal de permitir encontrar aquel más
+conveniente a sus necesidades. Para acceder al Servicio, el Usuario podrá optar por navegar
+libremente en la Plataforma o registrarse en ella, mediante la creación de una Cuenta de Usuario,
+cuyo objetivo es en todo momento brindarle un acceso más personalizado a los mejores
+beneficios a través del envío de descuentos, promociones o aquella información que previamente
+sea solicitada por el Usuario. Es importante recalcar que YAPP no solicitará información personal
+del Usuario.
+Cada Usuario es responsable de todas las actividades que ocurran bajo su Cuenta. YAPP no tiene
+control sobre el uso de la Cuenta de un Usuario y renuncia expresamente a cualquier
+
+responsabilidad derivada de la misma. En caso de que un Usuario sospeche que un tercero pudiera
+estar accediendo a la Plataforma bajo su Cuenta de Usuario, notificará a YAPP inmediatamente.
+El Servicio prestado por YAPP sólo está disponible en Chile y usted acepta no utilizar el Servicio
+desde fuera de esta ubicación. Del mismo modo, la Plataforma solamente puede ser utilizada por
+mayores de 18 años que hayan aceptado íntegramente los presentes Términos y Condiciones.
+
+5.- MATERIAL GENERADO POR USUARIOS
+
+En caso de que la Plataforma permita la publicación de material a los Usuarios, dicha carga será
+considerada en todo momento no confidencial. Mediante su publicación o carga a la Plataforma,
+se le otorga a YAPP derecho para usar, reproducir, distribuir y mostrar el material generado por el
+Usuario, para la promoción y apoyo de YAPP.
+Asimismo, el Usuario declara acerca del material de Usuario que: (a) No asocia el Contenido de la
+información proporcionada con material contrario a la ley, obsceno, difamatorio, injurioso o
+inadecuado por cualquier motivo y forma; (b) No dañará la bajo ningún respecto la reputación de
+YAPP (c) No se hace pasar por otra persona (d) No usa la información proporcionada por YAPP
+para fines distintos a los comprendidos en el Servicio.
+YAPP se reserva el derecho de eliminar cualquier material de Usuario a su entera disposición, sin
+previo aviso ni responsabilidad hacia el Usuario o cualquier otra persona. El Usuario entiende y
+acepta que el material de Usuario puede contener información que es inexacta u ofensiva,
+renunciando, desde ya, a presentar acciones legales contra YAPP con respecto a la misma.
+YAPP puede proporcionar enlaces a sitios web gestionados o que pertenecen a terceros, los que
+bajo ninguna circunstancia se entenderán respaldados por YAPP, en cuanto a su contenido,
+productos o servicios disponibles en dichos sitios web. Dicha conexión o enlace por parte del
+Usuario a cualquier otro sitio web es de su exclusiva responsabilidad.
+
+6.- USO DE MATERIALES
+
+Todos los derechos sobre el Contenido de nuestra Plataforma son de propiedad de YAPP, salvo
+que se disponga lo contrario. Los Usuarios solo están autorizados para utilizar la Plataforma y
+descargar el material exhibido en ella a modo personal. Estará expresamente prohibido su copia,
+reproducción, publicación, descarga, codificación, modificación, traducción, interpretación,
+exhibición, distribución, transmisión, transmisión o difusión en medios de comunicación, sin la
+autorización previa, expresa y por escrito de YAPP. Se hace expresa reserva del ejercicio de todas
+las acciones tanto civiles como penales destinadas al resguardo de sus legítimos derechos.
+
+7.- LIBERTAD PARA NAVEGAR Y COMPARAR PRODUCTOS
+
+El Usuario podrá navegar libremente en la Plataforma y hacer utilización de los Servicios gratuitos
+que esta provee al Usuario mediante la posibilidad de comparar precios y características de
+distintos Productos, provistos por diversas empresas farmacéuticas.
+
+8.- FORMACIÓN DEL CONSENTIMIENTO
+
+La Plataforma ofrecerá el Servicio sujeto a los Términos y Condiciones aquí señalados, los que
+podrán ser aceptados vía electrónica a través de los mecanismos que la Plataforma dispone para
+ello.
+La formación del consentimiento se perfeccionará con la aceptación de los Términos y Condiciones
+al momento de registrarse o en cualquier otro momento mediante los medios que la Plataforma
+dispone para ello. Esta cumplirá con los requisitos generales que establece la normativa chilena y
+la Ley de Protección al Consumidor.
+
+9.- INFORMACIÓN Y PRECIOS
+
+YAPP pondrá a disposición del público un servicio de comparador de precios referenciales de los
+Productos ofrecidos por las diversas empresas farmacéuticas. Los precios contenidos en el
+catálogo siempre incluirán el impuesto al valor agregado (I.V.A).
+Es de exclusiva responsabilidad del Usuario la elección de un Producto y nuestro compromiso
+supone poner a su disposición información que permita comparar el valor de los distintos
+Productos sin poder garantizarle un ahorro efectivo de dinero.
+En el entendiendo que YAPP es empresa colaborativa y que son los distintos actores de la
+industria quienes proveen información, se tomara como referencial aquella información
+referente a los Productos acogidos al GES (Garantías Explicitas en Salud), el valor y stock de los
+Productos y los descuentos e información de los programas de pacientes. YAPP no se hace
+responsable de que ellas no guarden total relación con la realidad.
+El Usuario, declara conocer y aceptar expresamente que YAPP tiene plena libertad para
+determinar las empresas farmacéuticas cuyos productos podrán ser comparados en la Plataforma
+debido a lo cual el Usuario no podrá exigir la exclusión de ciertas compañías, marcas, bienes y
+servicios del Portal.
+YAPP bajo ningún punto de vista entregará información del Usuario a farmacias, laboratorios ni
+otros actores de la industria; solamente podrá utilizar la información recabada para análisis
+estadísticos que permita predecir conductas o preferencias del Usuario.
+Cualquier modificación en las informaciones publicadas en esta Plataforma, incluyendo las
+referidas a Productos, precios, condiciones, promociones y ofertas será informada a la brevedad al
+Usuario.
+
+10.- TÉRMINO Y VIGENCIA DEL SERVICIO
+
+Estos Términos y Condiciones tendrán un plazo de vigencia indefinido. No obstante lo anterior,
+YAPP tiene derecho a poner término a la vigencia de los mismos en cualquier tiempo previo aviso
+al Usuario de al menos 30 días corridos de anticipación a la fecha de término. Se respetarán los
+beneficios que ya se hubieren ofrecido.
+
+11.- RENUNCIA
+
+El Usuario declara que utilizará la Plataforma bajo su propio riesgo, en el estado en que se
+encuentra con todos sus defectos y sin garantías. YAPP no garantiza el funcionamiento libre de
+errores y no se hará responsable por los costos asociado al daño que se produzcan por aquello.
+YAPP, en la medida máxima permitida por la ley, renuncia a toda garantía, explícita o implícita,
+incluyendo sin limitación las garantías de comercialización, no violación de derechos de terceros y
+la garantía de idoneidad para un propósito particular.
+
+12.- REPORTES Y DENUNCIAS
+
+Los Usuarios podrán reportar a YAPP cualquier conducta o contenido que pueda infringir estos
+Términos de Uso, la Política de Privacidad o la legislación aplicable.
+
+13.- LIMITACIÓN DE RESPONSABILIDAD
+
+YAPP no asume ningún tipo de responsabilidad derivada de (a) el uso de la Plataforma; (b) errores
+o imprecisiones de Contenido; (c) lesiones personales o daños a la propiedad; (d) acceso no
+autorizado o uso de los servidores de YAPP con la información que estos contienen; (e) cualquier
+externo que no dependa de YAPP; y (f) el rendimiento de la Plataforma o sus enlaces a otros sitios
+web.
+El servicio ofrecido por YAPP no contiene información acerca de todas las condiciones médicas
+para las cuales el medicamento pueda ser utilizado, como tampoco contendrá información que le
+sea aplicable según sus circunstancias personales. Todo lo publicado en la Plataforma de YAPP no
+tiene por finalidad la automedicación o autodiagnóstico. Por lo tanto, la compra realizada por el
+Usuario es por su propia cuenta y riesgo, eximiendo de responsabilidad a YAPP del mal uso de los
+Productos.
+YAPP no será responsable por la información de uso del producto o de cualquier otra información
+relativa a este que sea proporcionada por el laboratorio o fabricante a YAPP a través de cualquier
+medio. Nuestra empresa no tiene control alguno sobre la calidad, tiempo, legalidad, fallas o
+cualquier otro aspecto que se encuentre comprendido dentro de los servicios prestados por las
+empresas farmacéuticas ni proveedores del Producto.
+Además, el Usuario acepta que YAPP no se hace responsable de los daños derivados de la
+interrupción, suspensión o terminación de los Servicios aun cuando estuviera o no justificada.
+
+14.- LIBERACIÓN DE RESPONSABILIDAD DE YAPP POR ACTOS DE TERCEROS
+
+YAPP ni sus asociados serán responsables ante cualquier reclamo, lesión o daño que surja en
+relación con actos u omisiones de terceros.
+En caso de ser necesario, YAPP cederá al Usuario los derechos que pudiere tener en contra de
+terceros que proporcionen Contenido, según corresponda, por los perjuicios que éstos pudieren
+haber provocado. Por último, en el caso de presentarse una disputa con uno o más terceros, el
+Usuario libera a YAPP y sus empleados de todos los reclamos, responsabilidades y costos por
+aquellos daños que surjan a consecuencia de tales disputas.
+
+15.- INDEMNIDAD
+
+El Usuario se obliga a mantener indemne a YAPP y sus dependientes de cualquier pérdida,
+reclamo, daño, multa y gasto que surjan del uso no autorizado de la Plataforma, del
+incumplimiento de los Términos de Uso y de cualquier violación a una norma legal. De ser el caso y
+encontrándose en alguna de las hipótesis anteriores YAPP dará aviso a la brevedad al Usuario para
+que asuma la defensa.
+
+16.- TERMINACIÓN
+
+El Usuario podrá dejar de utilizar la Plataforma en cualquier momento.
+El no cumplimiento de los presentes Términos y Condiciones facultará a YAPP para: (a) Terminar el
+contrato asociado al Servicio y/o Cuenta del Usuario; e (b) Impedirle su acceso. A su sola
+discreción y sin previo aviso, YAPP puede modificar, suspender o interrumpir la Plataforma o su
+soporte por cualquier razón.
+
+17.- RESOLUCIÓN DE CONFLICTOS
+
+Cualquier dificultad o controversia que se produzca entre los contratantes respecto de la
+aplicación, interpretación, duración, validez o ejecución de este contrato o cualquier otro motivo
+será sometida a arbitraje, conforme al Reglamento Procesal de Arbitraje del Centro de Arbitraje y
+Mediación de Santiago, vigente al momento de solicitarlo.
+Las partes confieren poder especial irrevocable a la Cámara de Comercio de Santiago A.G., para
+que, a petición escrita de cualquiera de ellas, se designe a un árbitro arbitrador de entre los
+integrantes del cuerpo arbitral del Centro de Arbitraje y Mediación de Santiago. En contra de las
+resoluciones del arbitrador no procederá recurso alguno, renunciando las partes expresamente a
+ellos. El árbitro queda especialmente facultado para resolver todo asunto relacionado con su
+competencia y/o jurisdicción.
+
+18.- LEY APLICABLE Y DIVISIBILIDAD
+
+Estos Términos y Condiciones estarán regidos por las leyes de la República de Chile.
+
+Los Términos de Uso y la Política de Privacidad constituyen el acuerdo completo entre el Usuario y
+YAPP con respecto a los Servicios, uso de la Plataforma y su Contenido.
+
+19.- NO AGENCIA
+
+Por el presente Acuerdo no se crea ninguna relación contractual de agencia, asociación, empresa
+conjunta, empleado-empleador o franquiciador-franquiciado.
+
+20.- COMUNICACIONES ELÉCTRONICAS
+
+YAPP no solicita datos personales ni financieros a través de e-mail ni de ninguna otra forma
+escrita.
+Toda comunicación promocional o publicitaria enviada electrónicamente desde esta Plataforma
+indicará el asunto a que se refiere, nuestra identidad como remitente y, además, un link para que
+el destinatario, si lo desea, pueda solicitar la suspensión de esos envíos.
+
+21.- MODIFICACIONES
+
+YAPP a su sola discreción podrá cambiar estos Términos y Condiciones. Sin embargo, tales cambios
+sólo se aplicarán desde el momento en que sean publicados en la Plataforma o bien desde el
+momento en que sea notificado al Usuario, según corresponda.
+
+22.- VARIOS
+
+Estos Términos de Uso son personales. YAPP no podrá ceder, transferir o delegar cualquiera de sus
+derechos y obligaciones en virtud de estos Términos de Uso sin el consentimiento del Usuario.
+
+23.- CONTACTO
+
+Si el Usuario tiene alguna duda respecto de los Términos y Condiciones, Política de Privacidad, uso
+de la Plataforma o de su Cuenta del Usuario, podrá ponerse en contacto con YAPP vía el correo
+electrónico. Los mensajes serán atendidos a la mayor brevedad posible.
+
+Política de privacidad
+
+Estas políticas de privacidad rigen el uso que toda persona natural haga de la Plataforma y Sitio
+Web. Por el uso de la Plataforma, se entiende que el Usuario ha leído y aceptado la Política de
+Privacidad que se expresa a continuación, en todas sus partes. En caso contrario, el Usuario
+deberá abstenerse de acceder a la Plataforma, ya sea directa o indirectamente, y de utilizar
+cualquier información o Servicio provisto por la misma.
+Por medio de este documento se explica qué información se recopila, cómo se utiliza dicha
+información, en qué circunstancias es compartida y los derechos que tiene el Usuario sobre ella.
+La presente Política se aplica al usuario que accede a YAPP a través de un navegador, aplicación
+móvil, o por medio de cualquier otro método existente o que pudiera llegar.
+Aceptación y Modificaciones. Para los efectos de la presente Política de Privacidad, por la sola
+utilización de cualquiera de los servicios provistos por la Plataforma (los “Servicios”), y desde el
+momento mismo de su utilización, cualquier persona natural adquiere la condición de Usuario y
+expresa su aceptación plena y sin reservas de todas y cada una de las cláusulas de esta Política de
+Privacidad, debidamente publicada en la Plataforma. En consecuencia, se constituirá un acuerdo
+válido y obligatorio entre el Usuario y YAPP, en relación a los requisitos de privacidad que se
+habrán de mantener respecto de la utilización de los Servicios.
+La Empresa, sin ninguna responsabilidad por su parte, podrá modificar la Política de Privacidad en
+cualquier momento, y sin necesidad de aviso previo. El uso de la Plataforma con posterioridad a
+haberse efectuado algún cambio o modificación constituirá una aceptación expresa de los mismos.
+En caso de que el Usuario no acepte las modificaciones efectuadas a la Política de Privacidad,
+deberá dejar de usar la Plataforma y abstenerse de descargar o usar cualquier información,
+plataforma o software relacionado. Será responsabilidad del Usuario revisar periódicamente la
+Política de Privacidad de la Plataforma.
+El Usuario declara expresamente conocer y aceptar esta Política de Privacidad y los derechos que
+ésta otorga.
+Recolección de Información Personal. YAPP no almacena información personal del Usuarios.
+Eventualmente YAPP podrá usar información referente a las búsquedas para datos estadísticos.
+Confidencialidad y Seguridad de la Información. La Empresa ha adoptado medidas de seguridad
+para proteger la información. El acceso a los datos está restringido a aquellos empleados, afiliados,
+contratistas, representantes y agentes de la Empresa que necesitan conocer tales datos para el
+desempeño sus funciones y para el desarrollo o mejora de sus Servicios, impidiendo el acceso,
+modificación o divulgación de la información por cualquier persona no autorizado por la Empresa
+o el propio Usuario. La Empresa exigirá a sus proveedores los mismos estándares de
+confidencialidad sobre la información del Usuario. Sin perjuicio de lo anterior, la Empresa no
+
+garantiza estar libre de eventuales vulneraciones de las medidas de seguridad de la Plataforma por
+terceros no autorizados, aún cuando no utilicen la información de los Usuarios en forma indebida.
+Uso y Transferencia de Información. La Empresa llevará a cabo el tratamiento de la información
+de conformidad con lo dispuesto en la presente Política de Privacidad. YAPP bajo ningún punto de
+vista entregará información del Usuario a farmacias, laboratorios ni otros actores de la industria;
+solamente podrá utilizar la información recabada para análisis estadísticos que permita predecir
+conductas o preferencias del Usuario. En los términos anteriores, la información provista podrá ser
+transferida a terceros y YAPP adoptará las medidas que sean necesarias para asegurar que dicha
+información sea utilizada de una manera consistente con la actual Política de Privacidad. El uso de
+la información señalada en esta cláusula es expresamente aceptado por el Usuario.
+Excepciones. Salvo disposición expresa en contrario, la Empresa podrá divulgar información,
+cuando de buena fe estime que es razonablemente necesaria para (i) salvar su responsabilidad
+legal; (ii) cuando así lo exija una orden de judicial o de una autoridad administrativa competente,
+de cualquier naturaleza que sea; y (iii) proteger los derechos, propiedad o seguridad de la Empresa
+y de los Usuarios.
+Menores de Edad. La Empresa no se hará responsable por la mala comprensión que puedan hacer
+los menores de 18 años sobre la presente Política de Privacidad y sobre sus implicancias.
+Derechos de los Usuarios Sobre la Información. La Empresa dispondrá para los Usuarios respecto
+de los que haya recopilado información, los medios suficientes para acceder a sus datos, para
+rectificar, modificar o actualizar los mismos, o para cancelarlos, salvo cuando se vea impedido por
+disposición legal o fuerza mayor. El acceso, rectificación y remoción de datos será realizado por
+YAPP de manera gratuita, a menos que para acceder a la solicitud se requiera realizar gastos de
+cualquier naturaleza, los que serán cargo del Usuario.
+Contacto. En caso que el Usuario tenga alguna duda acerca de la Política de Privacidad, o sobre la
+aplicación de la misma, deberá ponerse en contacto con YAPP, a través de los medios dispuestos
+para ello.

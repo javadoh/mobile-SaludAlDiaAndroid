@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="reporte_strings_precio">
+        <item>@string/subir_o_actualizar_precio</item>
+        <item>@string/subir_producto_con_precio</item>
+        <item>@string/solicitar_que_suban_un_precio</item>
+    </array>
+    <array name="reporte_strings_producto">
+        <item>@string/subir_producto</item>
+        <item>@string/pedir_subir_producto</item>
+        <item>@string/corregir_un_producto</item>
+        <item>@string/compartir_stock</item>
+    </array>
+    <array name="reporte_strings_farmacia">
+        <item>@string/corregir_farmacia</item>
+        <item>@string/agregar_farmacia</item>
+        <item>@string/eliminar_farmacia</item>
+        <item>@string/evaluar_farmacia</item>
+    </array>
+    <array name="reporte_strings_convenio">
+        <item>@string/corregir_convenio</item>
+        <item>@string/subir_convenio</item>
+    </array>
+    <array name="reporte_strings_promociones">
+        <item>@string/subir_promocion</item>
+        <item>@string/promocion_no_valida</item>
+    </array>
+</resources>

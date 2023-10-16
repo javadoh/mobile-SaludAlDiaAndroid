@@ -1,0 +1,292 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/default_background"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingStart="32dp"
+        tools:context="com.orugga.yapp.fragments.recordatorios.AddRecordatorioTomaFragment">
+
+        <ImageView
+            android:id="@+id/imgRecordatorioToma"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="18dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_alerta_compra"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/configurar_recordatorio"
+            android:textColor="@color/naranjaAccent"
+            app:layout_constraintBottom_toBottomOf="@+id/imgRecordatorioToma"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgRecordatorioToma"
+            app:layout_constraintTop_toTopOf="@+id/imgRecordatorioToma" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteBuscarProducto"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit_text_default"
+            android:hint="@string/nombre_del_medicamento"
+            android:inputType="textCapWords"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColorHint="@color/defaultTextColor"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgRecordatorioToma" />
+
+
+        <TextView
+            android:id="@+id/labelStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_fecha_inicio"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/autoCompleteBuscarProducto" />
+
+        <EditText
+            android:id="@+id/editTextStartDate"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit_text_default"
+            android:focusable="false"
+            android:inputType="date"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColorHint="@color/defaultTextColor"
+            android:textSize="14sp"
+            app:layout_constraintRight_toLeftOf="@id/centerVerticalGuideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/labelStartDate" />
+
+        <TextView
+            android:id="@+id/labelEndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_fecha_termino"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@id/labelStartDate"
+            app:layout_constraintLeft_toRightOf="@id/centerVerticalGuideline" />
+
+        <EditText
+            android:id="@+id/editTextEndDate"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit_text_default"
+            android:focusable="false"
+            android:inputType="date"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColorHint="@color/defaultTextColor"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toRightOf="@id/centerVerticalGuideline"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/labelEndDate" />
+
+        <TextView
+            android:id="@+id/labelStartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_hora_inicio"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextStartDate" />
+        <Spinner
+            android:id="@+id/spinnerStartTime"
+            style="@style/DefaultSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:gravity="start"
+            android:minWidth="100dp"
+            android:paddingRight="30dp"
+            android:textAlignment="viewStart"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/labelStartTime"
+            tools:ignore="RtlSymmetry" />
+
+
+        <TextView
+            android:id="@+id/labelPosologiaToma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_posologia"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@id/labelStartTime"
+            app:layout_constraintLeft_toLeftOf="@id/centerVerticalGuideline" />
+
+
+        <Spinner
+            android:id="@+id/spinnerPosologiaToma"
+            style="@style/DefaultSpinner"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:paddingRight="30dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/centerVerticalGuideline"
+            app:layout_constraintTop_toBottomOf="@id/labelPosologiaToma"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/labelDosis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_dosis"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spinnerStartTime" />
+
+        <EditText
+            android:id="@+id/editTextDosis"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit_text_default"
+            android:inputType="numberDecimal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColorHint="@color/defaultTextColor"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="@id/spinnerStartTime"
+            app:layout_constraintTop_toBottomOf="@id/labelDosis" />
+
+        <TextView
+            android:id="@+id/labelUnidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_unidad"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@id/labelDosis"
+            app:layout_constraintLeft_toLeftOf="@id/centerVerticalGuideline" />
+
+
+        <Spinner
+            android:id="@+id/spinnerUnidad"
+            style="@style/DefaultSpinner"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:paddingRight="30dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/centerVerticalGuideline"
+            app:layout_constraintTop_toBottomOf="@id/labelUnidad"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/labelNota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_nota"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextDosis" />
+
+        <EditText
+            android:id="@+id/editTextNota"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit_text_default"
+            android:hint="@string/edit_text_hint_escribe_tu_mensaje_recordatorio"
+            android:inputType="textCapSentences"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColorHint="@color/defaultTextColor"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/labelNota"
+            app:layout_goneMarginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_fecha_para_recompra"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@id/editTextRepurchaseDate"
+            app:layout_constraintTop_toTopOf="@id/editTextRepurchaseDate" />
+
+
+        <EditText
+            android:id="@+id/editTextRepurchaseDate"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_edit_text_default"
+            android:focusable="false"
+            android:inputType="date"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColorHint="@color/defaultTextColor"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="@id/centerVerticalGuideline"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextNota" />
+
+
+        <TextView
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_btn_blue_rounded"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:text="@string/btn_ok"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextRepurchaseDate" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/centerVerticalGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.54" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

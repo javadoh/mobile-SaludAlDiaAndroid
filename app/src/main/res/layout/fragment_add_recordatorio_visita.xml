@@ -1,0 +1,196 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:paddingEnd="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingStart="32dp"
+        tools:context="com.orugga.yapp.fragments.recordatorios.AddRecordatorioTomaFragment"
+        tools:ignore="KeyboardInaccessibleWidget">
+
+        <ImageView
+            android:id="@+id/imgRecordatorioVisita"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="18dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_alerta_visita"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/lbl_configurar_nueva_visita"
+            android:textColor="@color/naranjaAccent"
+            app:layout_constraintBottom_toBottomOf="@+id/imgRecordatorioVisita"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgRecordatorioVisita"
+            app:layout_constraintTop_toTopOf="@+id/imgRecordatorioVisita" />
+
+        <EditText
+            android:id="@+id/editTextDoctorName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit_text_default"
+            android:hint="@string/edit_text_hint_nombre_del_medico"
+            android:inputType="textCapWords"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColorHint="@color/defaultTextColor"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgRecordatorioVisita" />
+
+
+        <TextView
+            android:id="@+id/labelEspecialidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_especialidad"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextDoctorName" />
+
+        <EditText
+            android:id="@+id/editTextEspecialidad"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit_text_default"
+            android:inputType="textCapWords"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColorHint="@color/defaultTextColor"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/labelEspecialidad" />
+
+        <TextView
+            android:id="@+id/labelDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_fecha"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextEspecialidad" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit_text_default"
+            android:focusable="false"
+            android:inputType="date"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColorHint="@color/defaultTextColor"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="@id/centerVerticalGuideline"
+            app:layout_constraintTop_toBottomOf="@id/labelDate" />
+
+        <TextView
+            android:id="@+id/labelTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_hora"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@id/labelDate"
+            app:layout_constraintLeft_toLeftOf="@id/centerVerticalGuideline" />
+
+
+        <Spinner
+            android:id="@+id/spinnerTime"
+            style="@style/DefaultSpinner"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:paddingRight="30dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/centerVerticalGuideline"
+            app:layout_constraintTop_toBottomOf="@id/labelTime"
+            tools:ignore="RtlSymmetry" />
+
+
+        <TextView
+            android:id="@+id/labelNota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/lbl_nota"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextDate" />
+
+        <EditText
+            android:id="@+id/editTextNota"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit_text_default"
+            android:hint="@string/edit_text_hint_escribe_tu_mensaje_recordatorio"
+            android:inputType="textCapSentences"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:textColorHint="@color/defaultTextColor"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/labelNota"
+            app:layout_goneMarginTop="8dp" />
+
+
+        <TextView
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/bg_btn_blue_rounded"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:text="@string/btn_ok"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editTextNota" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/centerVerticalGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.54" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

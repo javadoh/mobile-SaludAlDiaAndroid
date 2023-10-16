@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.orugga.yapp.fragments.BuscarProgramaPacienteFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/txtAutoCompleteSearchProducts"
+            style="@style/ProductAutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_productos_autocomplete_buscar_productos"
+            android:drawableRight="@drawable/ic_search_black_24dp"
+            android:hint="@string/txt_search_product"
+            android:imeOptions="actionNext"
+            android:inputType="textAutoComplete"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <!--<AutoCompleteTextView
+            android:id="@+id/txtAutoCompleteSearchLabs"
+            style="@style/ProductAutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_below="@id/txtAutoCompleteSearchProducts"
+            android:layout_marginBottom="24dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_productos_autocomplete_buscar_productos"
+            android:drawableRight="@drawable/ic_search_black_24dp"
+            android:hint="@string/txt_search_lab"
+            android:imeOptions="actionNext"
+            android:inputType="textAutoComplete"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="24dp"
+            android:layout_below="@id/txtAutoCompleteSearchProducts"
+            android:background="@color/naranjaAccent" />
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listViewPacientPrograms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/pacient_program_item" />
+
+</LinearLayout>

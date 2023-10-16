@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#64a6da</color>
+    <color name="colorPrimaryDark">#4486ba</color>
+    <color name="colorAccent">#4480ba</color>
+    <color name="colorBtnPromoLight">#a0e2e0</color>
+    <color name="colorBtnPromo">#60d5cf</color>
+    <color name="colorBtnPromoDark">#21c6bf</color>
+    <color name="colorBtnPromoTiempoLimitado">#ff5251</color>
+    <color name="defaultTextColor">#777777</color>
+    <color name="naranjaAccent">#ffb204</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="default_background">#f5f5f5</color>
+    <color name="editTextDefaultBackgroundColor">#f2f2f2</color>
+    <color name="editTextDefaultStrokeColor">#e7e7e8</color>
+    <color name="bgRateDialog">#88ffffff</color>
+</resources>

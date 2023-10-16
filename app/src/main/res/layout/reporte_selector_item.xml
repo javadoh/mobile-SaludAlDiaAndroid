@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.orugga.yapp.views.HtmlTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/bg_reporte_selector_item"
+    android:ellipsize="end"
+    android:maxLines="1"
+    android:padding="16dp"
+    android:textAlignment="center"
+    android:textColor="@android:color/black"
+    android:textSize="18sp" />

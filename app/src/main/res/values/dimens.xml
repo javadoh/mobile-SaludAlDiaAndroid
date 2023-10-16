@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="minHeight">100dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="design_navigation_padding_bottom" tools:override="true">120dp</dimen>
+    <dimen name="design_fab_image_size" tools:override="true">66dp</dimen>
+</resources>

@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.orugga.yapp.fragments.ProgramasGesYPacienteFragment">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/pacient_program_item" />
+
+    <TextView
+        android:id="@+id/txt_conocer_precios_PP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/buscar_productos_individuales"
+        android:textColor="@color/defaultTextColor"
+        android:textSize="18sp" />
+
+</FrameLayout>
